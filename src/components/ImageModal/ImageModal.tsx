@@ -48,8 +48,8 @@ const ImageModal: React.FC<ImageModalProps> = ({ isOpen, onClose, image }) => {
       <div onClick={handleOverlayClick} className={css["inf-container"]}>
         <img
           className={css["modal-img"]}
-          src={image?.modalImg || {}}
-          alt={image?.altDescr || {}}
+          src={image?.modalImg || ""}
+          alt={image?.altDescr || ""}
         />
         <p style={{ textAlign: "center" }}>{image?.altDescr || ""}</p>
       </div>
