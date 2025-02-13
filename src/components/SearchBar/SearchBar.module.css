@@ -1,0 +1,39 @@
+.header {
+  padding: 36px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input {
+  padding: 8px 16px;
+  outline: none;
+  border: 1px solid #a8c6ff;
+  background-color: #f7faff;
+  border-radius: 12px;
+
+  transition: all 200ms ease-in-out;
+}
+
+.input:focus {
+  scale: 1.1;
+}
+
+.submit-btn {
+  padding: 8px 16px;
+  outline: none;
+  border: 1px solid #a8c6ff;
+  background-color: #f7faff;
+  border-radius: 12px;
+
+  transition: all 200ms ease-in-out;
+}
+
+.submit-btn:hover {
+  scale: 1.1;
+}

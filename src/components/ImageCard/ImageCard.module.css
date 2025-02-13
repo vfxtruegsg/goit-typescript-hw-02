@@ -1,0 +1,12 @@
+.img-card {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+
+  transition: all 200ms ease-in-out;
+}
+
+.img-card:hover {
+  scale: 1.05;
+  box-shadow: 5px 5px #a8c6ff;
+}

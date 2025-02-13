@@ -1,0 +1,18 @@
+.load-more-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+  padding: 8px 16px;
+  outline: none;
+  border: 1px solid #a8c6ff;
+  background-color: #f7faff;
+  border-radius: 12px;
+
+  transition: all 200ms ease-in-out;
+}
+
+.load-more-btn:hover {
+  scale: 1.1;
+}

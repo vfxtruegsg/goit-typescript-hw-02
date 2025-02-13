@@ -1,0 +1,6 @@
+.gallery-list {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+  gap: 18px 0;
+}

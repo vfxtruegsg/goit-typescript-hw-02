@@ -1,0 +1,31 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+
+.modal {
+  display: block;
+}
+
+.inf-container {
+  border: 2px solid #b6deff;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #f4faff;
+}
+
+.modal-img {
+  width: 800px;
+  height: 550px;
+  object-fit: cover;
+}
