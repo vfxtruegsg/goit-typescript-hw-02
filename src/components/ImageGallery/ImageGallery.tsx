@@ -25,7 +25,6 @@ const ImageGallery: React.FC<GalleryImg> = ({
         <li key={id}>
           <ImageCard
             small={small}
-            regular={regular}
             alt_description={alt_description}
             onImageClick={() =>
               onImageClick({ modalImg: regular, altDescr: alt_description })

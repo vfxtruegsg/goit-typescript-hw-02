@@ -31,7 +31,9 @@ function App() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<boolean>(false);
   const [modalIsOpen, setIsOpen] = useState<boolean>(false);
-  const [selectedImage, setSelectedImage] = useState<ModalImage | null>(null);
+  const [selectedImage, setSelectedImage] = useState<ModalImage | undefined>(
+    undefined
+  );
 
   useEffect(() => {
     const getArticlesData = async () => {
