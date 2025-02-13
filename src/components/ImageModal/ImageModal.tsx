@@ -1,5 +1,5 @@
-import Modal from "react-modal";
 import { KeyboardEvent, useEffect } from "react";
+import Modal from "react-modal";
 Modal.setAppElement("#root");
 import css from "./ImageModal.module.css";
 
