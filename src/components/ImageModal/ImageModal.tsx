@@ -23,11 +23,17 @@ const ImageModal: React.FC<ImageModalProps> = ({ isOpen, onClose, image }) => {
     };
 
     if (isOpen) {
-      window.addEventListener("keydown", handleKeyDownClose);
+      window.addEventListener(
+        "keydown",
+        handleKeyDownClose as unknown as EventListener
+      );
     }
 
     return () => {
-      window.removeEventListener("keydown", handleKeyDownClose);
+      window.removeEventListener(
+        "keydown",
+        handleKeyDownClose as unknown as EventListener
+      );
     };
   }, [isOpen, onClose]);
 

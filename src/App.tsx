@@ -77,7 +77,7 @@ function App() {
 
   const closeModal = () => {
     setIsOpen(false);
-    setSelectedImage(null);
+    setSelectedImage(undefined);
   };
 
   return (
